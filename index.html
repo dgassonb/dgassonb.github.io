@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Papier.io</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="playerDef.js"></script>
+    <script src="initMap.js" defer></script>
+    <script src="zoneGrowth.js" defer></script>
+    <script src="playerSpawn.js" defer></script>
+    <script src="playerMoves2.0.js" defer></script>
+    <script src="playerMoves2.1.js" defer></script>
+    <!--<script src="playerMoves.js" defer></script>-->
+    <script>
+        let player1 = new Player([-1,-1], "red", "lightcoral", [1,2])
+        let player2 = new Player([-2,-2], "cornflowerblue", "lightskyblue", [3,4])
+    </script>
+
+</head>
+
+<body>
+
+    <div id="map">
+        <div id="grid"></div>
+    </div>
+    
+</body>
+
+</html>

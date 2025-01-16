@@ -1,0 +1,46 @@
+#grid {
+    display: grid;
+    width: 90vh;
+    height: 90vh;
+}
+
+.cell {
+    border: 1px solid rgb(0, 0, 0); /*couleur bordure */
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+}
+
+.div{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 5vh;
+}
+
+.body{
+    margin-top: 10vh;
+}
+
+
+input{
+    padding: 20px 10px;
+    border-radius: 30px;
+    width: 15vw;
+    height: 15vh;
+}
+
+#title{
+    width: 30%;
+    height: 30%;
+}
