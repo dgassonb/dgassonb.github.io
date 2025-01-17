@@ -4,7 +4,7 @@ function main2 (){
 
     // Le joueur se deplace automatiquement vers une direction presque aléatoire
     let current = player2.current; // coordonnees actuelles (x:abscisse, y:ordonnee)
-    const playerColor1 = player2.color1; // couleur du joueur1 // déjà chargée dans le programme PlayerSpawn
+    const playerColor1 = player2.color1; // couleur du joueur // déjà chargée dans le programme PlayerSpawn
     const playerColor2 = player2.color2;
 
 
