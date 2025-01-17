@@ -8,12 +8,27 @@
     <link rel="stylesheet" href="pages/style.css">
 
 </head>
-<body class="body">
+<body class="body" id="index">
+
     <div class="div">
-       <img id = "title" src="title.png"></img>
+        <div class="div">
+            <img alt="Papier.io (from Paper.io but coded by frenchies)" id = "title" src="title.png"></img>
+         </div>
+         <div class="div">
+            <input alt="Click to play" type="image" src = "play.png" onclick=window.location.href='pages/main.html'; value='Play'/>
+         </div>
     </div>
-    <div class="div">
-        <input type="image" src = "play.png" onclick=window.location.href='pages/main.html'; value='Play'/>
+
+    <div class="div" id="div1">
+        
+        <div>Red player moves with the arrows</div>
+        <div>Blue player moves with ZQSD</div>
+        
+        <img id="image" src="arrows.png" alt="Red player moves with the arrows"></img>
+        <img id="image" src="zqsd.png" alt="Blue player moves with ZQSD"></img>
+    
+        
     </div>
+    
 </body>
 </html>
