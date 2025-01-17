@@ -5,67 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papier.io</title>
 
-    <!--<script defer>
-        function Init (){
-            open("index.html");
-            window.close();
-        }
-    </script>-->
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        div{
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-
-        }
-        
-
-        #button{
-            margin-top: 30vh;
-            scale: 2;
-        }
-
-        body{
-            align-items: center;
-            justify-content: center;
-
-            flex-direction: column;
-        }
-
-        input{
-            padding: 20px 50px;
-            border-radius: 30px;
-        }
-
-        h1{
-            scale: 7;
-        }
-
-        #b1 {
-
-            width: 237px;
-            height: 115px;
-        }
-
-        #b2 {
-
-            width: 209px;
-            height: 105px;
-        }
-
-        
-
-    </style>
 </head>
-<body>
-    <div id="paper">
-        <img id = "go" src = "gameover.png"></img>
+<body class="body">
+    <div class="div">
+        <img id = "title" src = "gameover.png"></img>
     </div>
-    <div id="button">
-        <input type="image" id = "b1" src="replay.png" onclick=window.location.href='index.html'; value='Replay'/>
-        <input type="image" id = "b2" src="menu.png" onclick=window.location.href='menu.html'; value='Menu'/>
+    <div class="div">
+        <input type="image" src="replay.png" onclick=window.location.href='index.html'; value='Replay'/>
+        <input type="image" src="../menu.png" onclick=window.location.href='../menu.html'; value='Menu'/>
     </div>
 </body>
 </html>
