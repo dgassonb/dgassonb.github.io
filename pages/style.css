@@ -15,21 +15,34 @@
 
 .div{
     text-align: center;
-    align-items: center;
     justify-content: center;
+}
+#div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 25%;
+}
+#div2{
     width: 100vw;
 }
 
-body{
+
+.body{
+    margin-top: 10vh;
+}
+#body2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
     justify-self: center;
     margin-top: 5vh;
 }
-
-.body{
-    margin-top: 10vh;
+#index{
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    height: 80vh;
 }
 
 
@@ -40,7 +53,13 @@ input{
     height: 15vh;
 }
 
+
 #title{
     width: 30%;
     height: 30%;
+}
+
+#image{
+    height: 10%;
+    justify-self: center;
 }
